@@ -1,9 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:6
 
-# Audio track
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="English",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="en",URI="https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan-mp4a_128000_eng=4263252627.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan-mp4a_128000_eng=4263252627.m3u8"
 
-# Video stream
-#EXT-X-STREAM-INF:BANDWIDTH=3128000,CODECS="avc1.640028,mp4a.40.2",RESOLUTION=1920x1080,AUDIO="audio"
+#EXT-X-STREAM-INF:BANDWIDTH=3128000,AUDIO="audio"
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan-avc1_3000000=1985961624.m3u8
