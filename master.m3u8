@@ -1,7 +1,16 @@
 #EXTM3U
-#EXT-X-VERSION:6
+#EXT-X-VERSION:3
 
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan-mp4a_128000_eng=4263252627.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aud",NAME="English",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="en",URI="https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan-mp4a_128000_eng=4263252627.m3u8"
 
-#EXT-X-STREAM-INF:BANDWIDTH=3128000,AUDIO="audio"
+#EXT-X-STREAM-INF:BANDWIDTH=328000,AUDIO="aud"
+https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan-avc1_200000=196187283.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=528000,AUDIO="aud"
+https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan-avc1_400000=1122409136.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=928000,AUDIO="aud"
+https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan-avc1_800000=369134550.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=3128000,AUDIO="aud"
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan-avc1_3000000=1985961624.m3u8
